@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Кошелева Алеся</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <header>
+      <a class="link-header" href="me.html">Кошелева Алеся</a>
+      <a class="link-header" href="mysites.html">мои лучшие работы</a>
+    </header>
+    <main>
+      <nav>
+        
+        <!--<a class="link-nav" href="info.html"><b>полезная информация</b></a>-->
+      </nav>
+      <h1>Front-end<br/> developer</h1>
+      <ul>
+        <li>
+          <p>макеты</p>
+        </li>
+        <li>
+          <p>адаптивные сайты</p>
+        </li>
+        <li>
+          <p>двумерные анимации и градиенты</p>
+        </li>
+        <li>
+          <p>видео на сайте</p>
+        </li>
+      </ul>
+      <img class="big-img" src="/uploads/2021/04/carousel-1684591_0_1618254197.svg" width="830px" height="550px"/>
+    </main>
+    <footer>
+      <a class="social" href="https://www.tiktok.com/@x.ami_saffer_eyes.x?_t=8sK0YWU0LQG&_r=1"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+      <i class="fab fa-tiktok"></i></a>
+      <p> мой тик ток канал </p>
+    </footer>
+  </body>
+</html>
