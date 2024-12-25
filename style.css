@@ -1,39 +1,153 @@
-<html>
-  <head>
-    <title>Кошелева Алеся</title>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-    <header>
-      <a class="link-header" href="me.html">Кошелева Алеся</a>
-      <a class="link-header" href="mysites.html">мои лучшие работы</a>
-    </header>
-    <main>
-      <nav>
-        
-        <!--<a class="link-nav" href="info.html"><b>полезная информация</b></a>-->
-      </nav>
-      <h1>Front-end<br/> developer</h1>
-      <ul>
-        <li>
-          <p>макеты</p>
-        </li>
-        <li>
-          <p>адаптивные сайты</p>
-        </li>
-        <li>
-          <p>двумерные анимации и градиенты</p>
-        </li>
-        <li>
-          <p>видео на сайте</p>
-        </li>
-      </ul>
-      <img class="big-img" src="/uploads/2021/04/carousel-1684591_0_1618254197.svg" width="830px" height="550px"/>
-    </main>
-    <footer>
-      <a class="social" href="https://www.tiktok.com/@x.ami_saffer_eyes.x?_t=8sK0YWU0LQG&_r=1"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
-      <i class="fab fa-tiktok"></i></a>
-      <p> мой тик ток канал </p>
-    </footer>
-  </body>
-</html>
+body {
+  font-family: sans-serif;
+background-image: linear-gradient(to left bottom, #54497e, #574278, #5b3a70, #5e3269,
+ #602a60, #752e59, #853551, #8f4149, #9f654b, #a58a5e, #a8ae82, #afcfb1);
+  color: white;
+}
+
+header {
+  background-color: #39215C;
+  padding: 40px 0px 40px 25px;
+  box-shadow:0 10px 5px 0 #3d1020;
+  display: flex;
+  justify-content: flex-start ;
+  gap: 30px ;
+}
+
+.link-header {
+  background-color: #e7f8c5;
+  padding: 5px 10px 5px 10px;
+  font-size: 36px;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 0 5px 3px rgb(178, 172, 216);
+  margin-left:20px;
+  
+}
+
+nav {
+  padding: 35px 40px 0px 40px;
+}
+
+.link-nav {
+  color: black;
+  font-size: 24px;
+  margin-right: 35px;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 96px;
+  border-bottom: 10px double white;
+  width: 800px ;
+  margin-left: 22%;
+}
+
+p {
+  font-size: 24px;
+  margin-left: 60px;
+
+}
+
+ul {
+  font-size: 24px;
+  list-style: url("https://mars.algoritmika.org/uploads/2021/04/Arrow%201_0_1618309609.png");
+  margin-left: 60px;
+  margin-top: 5px;
+  width: 30%;
+}
+
+li {
+  margin-bottom: 20px;
+  color: white;
+}
+
+ol {
+  font-size: 24px;
+  margin-left: 60px;
+}
+
+.text-big {
+  font-size: 48px;
+  margin-left: 60px;
+  text-align: center;
+}
+  
+.link-text {
+    color: #1F0B3B;
+}
+
+h2 {
+  color: #006363;
+  font-size: 64px;
+}
+
+footer {
+  padding: 65px 0px 80px 80px;
+}
+
+.social {
+  margin-right: 60px;
+}
+
+main img {
+  width: 50% ;
+  height: 250px ;
+  border-radius: 5%;
+  box-shadow: 0 0 5px 5px #4f2030;
+  margin-top: 20px;
+  max-width: max-content;
+  min-width: min-content;
+  display: block;
+}
+.fa-tiktok {
+	color: #fff;
+	font-size: 65px;
+	text-shadow: 5px 5px #ff3353fc, -5px -5px cyan;
+}
+
+footer {
+  background-image: linear-gradient( #1F0B3B , #C2777A ) ;
+  height: 30px;
+  box-shadow: 0 0 5px 5px black;
+  margin-top: 25px;
+  position: relative;
+}
+
+footer p {
+  position: absolute;
+  bottom: 20%;
+  left: 150px;
+  font-weight: 800;
+  color: white;
+}
+
+.emoji {
+    width: 23px;
+    height: 23px;
+    box-shadow: none;
+    display: inline-block;
+}
+
+li p {
+    font-weight: 700;
+    min-height: 72px ;
+}
+
+h2 {
+    color: black;
+    margin-left: 30px;
+}
+
+.big-img {
+  position: absolute;
+  top: 54%;
+  right: 10%;
+}
+
+main {
+  position: relative;
+}
